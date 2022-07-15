@@ -192,3 +192,70 @@ main {
 .hidden {
   display: none;
 }
+
+/* Media queries */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Styles */
+  main {
+    display: table;
+  }
+
+  .player {
+    padding: 0rem;
+  }
+
+  section.player.player--0 {
+    margin-top: 10rem;
+    padding-top: 5rem;
+  }
+
+  section.player.player--1 {
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.5rem 2.2rem;
+  }
+  .btn--roll {
+    top: 64.1rem;
+    left: 13rem;
+  }
+
+  .btn--hold {
+    top: 64.1rem;
+    left: 26rem;
+  }
+
+  .btn--new {
+    top: 59rem;
+    left: -4rem;
+    transform: rotate(-90deg);
+  }
+
+  .dice {
+    top: 61rem;
+    left: 87%;
+    height: 8rem;
+  }
+
+  h2#name--0.name {
+    padding-top: 4rem;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .current,
+  .leaderboard {
+    width: 35%;
+  }
+
+  .leaderboard {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
