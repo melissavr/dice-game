@@ -220,24 +220,24 @@ main {
     padding: 0.5rem 2.2rem;
   }
   .btn--roll {
-    top: 64.1rem;
+    top: 62.1rem;
     left: 13rem;
   }
 
   .btn--hold {
-    top: 64.1rem;
-    left: 26rem;
+    top: 67.1rem;
+    left: 13rem;
   }
 
   .btn--new {
-    top: 59rem;
+    top: 60rem;
     left: -4rem;
     transform: rotate(-90deg);
   }
 
   .dice {
-    top: 61rem;
-    left: 87%;
+    top: 63.2rem;
+    left: 75%;
     height: 8rem;
   }
 
