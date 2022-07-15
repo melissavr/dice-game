@@ -199,6 +199,7 @@ main {
   /* Styles */
   main {
     display: table;
+    margin-top: 6rem;
   }
 
   .player {
