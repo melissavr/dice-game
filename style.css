@@ -208,7 +208,7 @@ main {
 
   section.player.player--0 {
     margin-top: 10rem;
-    padding-top: 5rem;
+    padding-top: 17rem;
   }
 
   section.player.player--1 {
@@ -221,23 +221,23 @@ main {
     padding: 0.5rem 2.2rem;
   }
   .btn--roll {
-    top: 62.1rem;
+    top: 75.5rem;
     left: 13rem;
   }
 
   .btn--hold {
-    top: 67.1rem;
+    top: 80.5rem;
     left: 13rem;
   }
 
   .btn--new {
-    top: 60rem;
+    top: 73rem;
     left: -4rem;
     transform: rotate(-90deg);
   }
 
   .dice {
-    top: 63.2rem;
+    top: 76rem;
     left: 75%;
     height: 8rem;
   }
@@ -248,6 +248,7 @@ main {
 
   .name {
     font-size: 3rem;
+    margin-top: 1rem;
   }
 
   .current,
