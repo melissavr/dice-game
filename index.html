@@ -36,8 +36,20 @@
 
       <img src="dice-5.png" alt="Playing dice" class="dice" />
       <button class="btn btn--new btn-text">🔄 New game</button>
-      <button class="btn btn--roll btn-text">🎲 Roll dice</button>
-      <button class="btn btn--hold btn-text">📥 Hold</button>
+      <button class="btn btn--roll">🎲 Roll dice</button>
+      <button class="btn btn--hold">📥 Hold</button>
+      <button class="btn btn--how show-modal">❓ How to play?</button>
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>How to play</h1>
+        <p class="modal-text">
+          Player 1 starts by throwing the dice (click on roll dice). You get
+          points according to the dice roll, except if you roll a 1. As soon as
+          you roll a 1, it's the next player's turn and you forfeit all points
+          accumulated up to then. The first player to a 100 wins. Have fun! 🎲
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
     </main>
     <script src="script.js"></script>
   </body>
